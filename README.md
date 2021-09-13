@@ -51,7 +51,7 @@ This terraform code will create a VPC, GKE and deploy openfaas. Below are detail
 
 * The `variables.tf` file shows more description as to each varaible set and can be changed to your preferences
 
-* ```export CLUSTER_NAME=CLUSTER-NAME``` as provided in your `.tfvars` file to set env variable for the cluster name.
+* Run ```export CLUSTER_NAME=CLUSTER-NAME``` as provided in your `.tfvars` file to set env variable for the cluster name.
 
 * Run ```export CLUSTER_REGION=YOUR-REGION``` as provided in your `.tfvars` file to set env variable for the region.
 
