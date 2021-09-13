@@ -39,7 +39,7 @@ This terraform code will create a VPC, GKE and deploy openfaas. Below are detail
 * Create a `.tfvars`. Below is a sample with the following contents: 
 ```
   region = "us-central1"
-  google_credentials = "PATH-to-service-acct"
+  google_credentials = "PATH-to-service-acct/NAME"
   project_id = "PROJECT-ID"
   cluster_name = "NAME-OF-CLUSTER"
   cluster_image = "cos"
